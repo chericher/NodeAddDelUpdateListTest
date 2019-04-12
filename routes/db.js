@@ -2,10 +2,10 @@
 // 连接MySQL
 var mysql = require('mysql');
 var pool = mysql.createPool({
-    host: 'localhost',
-    user: 'root',
-    password: '123456',
-    database: 'test'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 
 function query(sql, callback) {
